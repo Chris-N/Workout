@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Everyday from './components/Everyday'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Everyday } from './components/Everyday'
 import Header from './components/Header'
 import Home from './components/Home'
 
@@ -11,6 +11,27 @@ export const App = () => {
         <Header />
         <Switch>
           <Route path="/strength">
+            <Everyday />
+          </Route>
+          <Route path="/isometric">
+            <Everyday />
+          </Route>
+          <Route path="/fullmass">
+            <Everyday />
+          </Route>
+          <Route path="/uppermass">
+            <Everyday />
+          </Route>
+          <Route path="/lowermass">
+            <Everyday />
+          </Route>
+          <Route path="/dynamic">
+            <Everyday />
+          </Route>
+          <Route path="/pnf">
+            <Everyday />
+          </Route>
+          <Route path="/relaxed">
             <Everyday />
           </Route>
           <Route path="/">
