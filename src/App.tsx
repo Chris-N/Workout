@@ -1,32 +1,25 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import * as React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Everyday from './components/Everyday'
+import Header from './components/Header'
+import Home from './components/Home'
 
-function App() {
-  const clickHandler = () => {
-    console.log("You clicked bruh!");
-  };
-
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>Yo this your typescript app!!</p>
-        <button onClick={clickHandler}>Click me!</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/strength">
+            <Everyday />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
