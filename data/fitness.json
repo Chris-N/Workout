@@ -1,0 +1,115 @@
+{
+  "strength": {
+    "exercises": [
+      {
+        "name": "Pseudo Planche Push Up",
+        "set": "3-5",
+        "reps": "6-8",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Slider Hamstring Curl",
+        "sets": "3-5",
+        "reps": "6-8",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Reverse Plank Extension",
+        "sets": "3-5",
+        "reps": "10-12",
+        "tempo": "1-0-1-2"
+      },
+      {
+        "name": "Home Bodyweight Row",
+        "sets": "3-5",
+        "reps": "6-8",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Shrimp Squat",
+        "sets": "3-5",
+        "reps": "6-8",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Lying Leg Raise",
+        "sets": "3-5",
+        "reps": "10-12",
+        "tempo": "2-1-1-0"
+      }
+    ],
+    "break": 45,
+    "breakset": 1,
+    "round": 90,
+    "roundset": 3
+  },
+  "isometric": {},
+  "fullmass": {},
+  "uppermass": {
+    "exercises": [
+      {
+        "name": "Pike Push Up",
+        "set": "3-5",
+        "reps": "4-6",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Diamond Push Up",
+        "sets": "3-5",
+        "reps": "8-12",
+        "tempo": "3-0-1-1"
+      },
+      {
+        "name": "Front Lever Row",
+        "sets": "3-5",
+        "reps": "4-6",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Supinated Bodyweight Row",
+        "sets": "3-5",
+        "reps": "8-12",
+        "tempo": "3-0-1-1"
+      }
+    ],
+    "break": 60,
+    "breakset": 2,
+    "round": 100,
+    "roundset": 4
+  },
+  "lowermass": {
+    "exercises": [
+      {
+        "name": "Shrimp Squat",
+        "sets": "3-5",
+        "reps": "4-6",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Cyclist Squat",
+        "sets": "3-5",
+        "reps": "8-12",
+        "tempo": "3-1-1-0"
+      },
+      {
+        "name": "Slider Hamstring Curl",
+        "sets": "3-5",
+        "reps": "4-6",
+        "tempo": "4-0-1-0"
+      },
+      {
+        "name": "Reverse Hyperextension",
+        "sets": "3-5",
+        "reps": "8-12",
+        "tempo": "2-0-1-2"
+      }
+    ],
+    "break": 60,
+    "breakset": 2,
+    "round": 100,
+    "roundset": 4
+  },
+  "dynamic": {},
+  "pnf": {},
+  "relaxed": {}
+}
