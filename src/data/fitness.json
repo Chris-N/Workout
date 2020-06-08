@@ -3,7 +3,7 @@
     "exercises": [
       {
         "name": "Pseudo Planche Push Up",
-        "set": "3-5",
+        "sets": "3-5",
         "reps": "6-8",
         "tempo": "4-0-1-0"
       },
@@ -49,7 +49,7 @@
     "exercises": [
       {
         "name": "Pike Push Up",
-        "set": "3-5",
+        "sets": "3-5",
         "reps": "4-6",
         "tempo": "4-0-1-0"
       },

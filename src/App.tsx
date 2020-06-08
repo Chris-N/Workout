@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Everyday } from './components/Everyday'
 import Header from './components/Header'
 import Home from './components/Home'
+import { Uppermass } from './components/Uppermass'
+
+import data from './data/fitness.json'
 
 export const App = () => {
   return (
@@ -20,7 +23,7 @@ export const App = () => {
             <Everyday />
           </Route>
           <Route path="/uppermass">
-            <Everyday />
+            <Uppermass data={data.uppermass} />
           </Route>
           <Route path="/lowermass">
             <Everyday />
