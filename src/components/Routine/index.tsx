@@ -7,7 +7,10 @@ import { IExercises } from '../../type'
 const Container = styled.p``
 const Exercise = styled.div``
 
-export const Uppermass: React.FC<{ data: IExercises }> = ({ data }) => {
+export const Routine: React.FC<{ data: IExercises; title: string }> = ({
+  data,
+  title,
+}) => {
   const list = useMemo(
     () =>
       data.exercises.map((item) => {
@@ -20,7 +23,8 @@ export const Uppermass: React.FC<{ data: IExercises }> = ({ data }) => {
 
   return (
     <>
-      <Container>Upper Mass Exercise List</Container>
+      {/* <Container>Upper Mass Exercise List</Container> */}
+      <Container>{`${title} Exercise List`}</Container>
       {list}
       <p>{`Break for ${data.break} seconds after the first ${data.breakset} exercises`}</p>
       <p>{`Break for ${data.round} seconds after round completion of ${data.roundset} exercises`}</p>
